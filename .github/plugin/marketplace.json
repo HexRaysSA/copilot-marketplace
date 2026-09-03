@@ -1,0 +1,36 @@
+{
+  "name": "HexRaysSA",
+  "owner": {
+    "name": "Hex-Rays",
+    "email": "support@hex-rays.com"
+  },
+  "metadata": {
+    "description": "Plugins for working with Hex-Rays IDA Pro.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ida-mcp",
+      "description": "Analyze IDA databases through the official IDA MCP server.",
+      "source": {
+        "source": "github",
+        "repo": "HexRaysSA/ida-mcp",
+        "ref": "latest"
+      },
+      "author": {
+        "name": "Hex-Rays",
+        "url": "https://hex-rays.com/"
+      },
+      "homepage": "https://github.com/HexRaysSA/ida-mcp",
+      "repository": "https://github.com/HexRaysSA/ida-mcp.git",
+      "license": "MIT",
+      "keywords": [
+        "ida",
+        "ida-pro",
+        "reverse-engineering",
+        "mcp"
+      ],
+      "category": "Developer Tools"
+    }
+  ]
+}
